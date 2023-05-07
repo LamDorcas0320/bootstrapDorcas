@@ -97,7 +97,7 @@ i{
     .card-logo{
         z-index: 3;
         position: relative;
-        left: -10px;
+        left: -10px !important; 
     }
     .card-body{
         z-index: 2;
