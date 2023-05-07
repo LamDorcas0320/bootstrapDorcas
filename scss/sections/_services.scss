@@ -41,9 +41,9 @@
     }
 
     .video-button{
-        width: 5rem;
-        height: 1.5rem;
-        font-size: 8px;
+        width: 5rem !important;
+        height: 1.5rem !important;
+        font-size: 8px !important;
         position: absolute;
         top:5px;
         left: 150px;
@@ -56,9 +56,9 @@
        
     }
     .feature-video-button{
-        width: 5rem;
-        height: 1.5rem;
-        font-size: 8px;
+        width: 5rem !important;
+        height: 1.5rem !important;
+        font-size: 8px !important;
         position: absolute;
         top:5px;
         left: 15px;
