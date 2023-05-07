@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+
+.project{
+    p{
+        color: $secondary;
+    }
+    button{
+        font-size: 12px;
+       margin-right: 1rem;
+       
+    }
+    .buy-now{
+        width: 8rem;
+        height: 2.5rem;
+    }
+    .learn-more{
+        background-color: $white;
+        border: 0px;
+    }
+}

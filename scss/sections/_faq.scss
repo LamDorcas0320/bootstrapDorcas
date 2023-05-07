@@ -1,0 +1,51 @@
+@use '../custom' as *;
+
+.faq{
+    position: relative;
+    top: -4rem;
+    font-size: 12px;
+    color: $secondary;
+    h6{
+        font-size: 24px;
+    }
+    i{
+        font-size: 16px;
+        color: $secondary;  
+        padding-right: 1rem;
+    }
+ 
+    p{
+        font-size: 12px;
+        color: $gray-600;
+        font-weight: 300;
+    }
+    .accordion{
+    
+        border-radius: 20px;
+    }
+    .accordion-item{
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $gray-200;
+        margin-bottom: 1.5rem;
+ 
+    }
+    .accordion-button{
+        font-size: 12px;
+        font-weight: 500;
+        color: $secondary;
+        background-color: transparent;
+    }
+    .accordion-header{
+        border-radius: 15px;
+        background-color: transparent;
+      
+    }
+    .accordion-body{
+        font-size: 12px;
+        color: $secondary;
+    }
+ 
+   
+}
