@@ -29,12 +29,18 @@
     }
     .row{
         position: relative;
-        top: -1rem;  
+        background-color: $secondary;
+        top: -1.5rem;  
       
     }
-    .catact-box__info--title{
+    .contact-box__info{
+        background-color: $secondary;
+    }
+    .content-box__info--title{
      font-size: 26px;
      font-weight: 400;
+     background-color: $secondary;
+
     }
     .content-box__info--subtitle{
      font-size: 10px;
