@@ -28,10 +28,11 @@
         font-weight: 400;
         color: $secondary;
     }
+
     .tools-photo{
      position: relative;
     top:-300px;
-    left: 325px;
+    left: 305px;
     }
 
     .video-button{
@@ -67,7 +68,7 @@
     .tools-progress{
         position: relative;
         top:80px;
-        left: 160px;
+        left: 140px;
     
        
     }
@@ -279,7 +280,7 @@
     vertical-align: middle;
     height: 32px;
     width: 32px;
-    background-color: orange;
+    background-color: $white;
     border-radius: 50%;
     display: inline-block;
      margin-left: -10px;
