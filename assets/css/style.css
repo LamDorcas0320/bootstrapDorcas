@@ -12017,6 +12017,7 @@ textarea.form-control-lg {
   color: #161348;
 }
 .card-box .card-header {
+  z-index: 2;
   border-bottom: none;
 }
 .card-box .btn-link {
@@ -12052,10 +12053,8 @@ i {
   position: relative;
   left: 70px;
 }
-.credit-card .card-logo {
-  z-index: 3;
-  position: relative;
-  left: -70px;
+.credit-card .card-header {
+  z-index: 2;
 }
 .credit-card .card-body {
   z-index: 2;
@@ -12074,6 +12073,10 @@ i {
   background-position: right center;
   background-image: radial-gradient(ellipse 1em 1em, #342657 30%, #161348 50%);
   background-size: 1.2em 1.2em;
+}
+.credit-card .credit-card__bg3 img {
+  position: absolute !important;
+  left: -100px !important;
 }
 .credit-card .credit-card__bg2:before {
   content: "";
@@ -12143,7 +12146,6 @@ i {
 
 .services {
   position: relative;
-  padding: 0.5rem 0;
   top: 0rem;
 }
 .services__content {
@@ -12170,12 +12172,16 @@ i {
 .services .tools-photo {
   position: relative;
   top: -300px;
-  left: 325px;
+  left: 15rem;
+}
+.services .compnay-circle__logo {
+  position: relative;
+  left: 50px;
 }
 .services .video-button {
-  width: 5rem;
-  height: 1.5rem;
-  font-size: 8px;
+  width: 5rem !important;
+  height: 1.5rem !important;
+  font-size: 8px !important;
   position: absolute;
   top: 5px;
   left: 150px;
@@ -12187,9 +12193,9 @@ i {
   left: 45px;
 }
 .services .feature-video-button {
-  width: 5rem;
-  height: 1.5rem;
-  font-size: 8px;
+  width: 5rem !important;
+  height: 1.5rem !important;
+  font-size: 8px !important;
   position: absolute;
   top: 5px;
   left: 15px;
@@ -12203,7 +12209,7 @@ i {
 .services .tools-progress {
   position: relative;
   top: 80px;
-  left: 160px;
+  left: 15rem;
 }
 .services .technology-cards .card {
   border-color: #e9ecef;
@@ -12359,7 +12365,7 @@ i {
   vertical-align: middle;
   height: 32px;
   width: 32px;
-  background-color: orange;
+  background-color: #fff;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
@@ -12405,11 +12411,13 @@ i {
 .Awards .card {
   border: 0rem;
   font-size: 0.8rem;
-  width: 250px;
-  height: 300px;
+  width: 220px;
+  height: 150px;
   margin-right: 1rem;
   margin-bottom: 0px;
   min-width: 200px;
+  max-width: 200px;
+  max-height: 150px;
   background-color: #fafbff;
 }
 .Awards .card:hover {
@@ -12498,6 +12506,7 @@ i {
 .project .learn-more {
   background-color: #fff;
   border: 0px;
+  height: 1.5rem;
 }
 
 .footer {
@@ -12523,11 +12532,16 @@ i {
 }
 .footer .row {
   position: relative;
-  top: -1rem;
+  background-color: #161348;
+  top: -1.5rem;
 }
-.footer .catact-box__info--title {
+.footer .contact-box__info {
+  background-color: #161348;
+}
+.footer .content-box__info--title {
   font-size: 26px;
   font-weight: 400;
+  background-color: #161348;
 }
 .footer .content-box__info--subtitle {
   font-size: 10px;
