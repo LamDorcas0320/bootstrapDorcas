@@ -11975,15 +11975,15 @@ textarea.form-control-lg {
   height: 100%;
   border-bottom: 0px;
 }
-.intro-section .carousel-item {
-  height: 32rem;
-  background: #777;
-}
 .intro-section .buttonLine {
   border-bottom: dotted 1.5px;
 }
 .intro-section button {
   font-size: 12px;
+}
+
+.get-started_button {
+  color: #161348;
 }
 
 .logo-white {
@@ -12208,10 +12208,14 @@ i {
   top: -14px;
   left: 45px;
 }
+.services .compnay-circle__logo {
+  position: relative;
+  left: 30px;
+}
 .services .tools-progress {
   position: relative;
   top: 80px;
-  left: -15rem;
+  left: 5rem;
 }
 .services .technology-cards .card {
   border-color: #e9ecef;

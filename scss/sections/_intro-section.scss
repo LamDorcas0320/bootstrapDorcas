@@ -8,10 +8,7 @@
     width: 100%;
     height: 100%;
     border-bottom: 0px;
-.carousel-item{
-    height: 32rem;
-    background: #777;
-}
+
 .buttonLine{
  border-bottom: dotted 1.5px;
 }
@@ -19,7 +16,9 @@ button{
     font-size: 12px;
 }
 }
-
+.get-started_button{
+    color: $secondary;
+}
 .logo-white{
     position: relative;
     top: 13px;
