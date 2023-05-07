@@ -11975,6 +11975,10 @@ textarea.form-control-lg {
   height: 100%;
   border-bottom: 0px;
 }
+.intro-section .carousel-item {
+  height: 32rem;
+  background: #777;
+}
 .intro-section .buttonLine {
   border-bottom: dotted 1.5px;
 }
@@ -12075,8 +12079,9 @@ i {
   background-size: 1.2em 1.2em;
 }
 .credit-card .credit-card__bg3 img {
+  z-index: 3;
   position: absolute !important;
-  left: -100px !important;
+  left: -90px !important;
 }
 .credit-card .credit-card__bg2:before {
   content: "";
@@ -12181,7 +12186,7 @@ i {
 .services .video-button {
   width: 5rem !important;
   height: 1.5rem !important;
-  font-size: 8px !important;
+  font-size: 10px !important;
   position: absolute;
   top: 5px;
   left: 150px;
@@ -12195,7 +12200,7 @@ i {
 .services .feature-video-button {
   width: 5rem !important;
   height: 1.5rem !important;
-  font-size: 8px !important;
+  font-size: 10px !important;
   position: absolute;
   top: 5px;
   left: 15px;
@@ -12209,7 +12214,7 @@ i {
 .services .tools-progress {
   position: relative;
   top: 80px;
-  left: 15rem;
+  left: -15rem;
 }
 .services .technology-cards .card {
   border-color: #e9ecef;
