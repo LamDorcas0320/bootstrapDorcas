@@ -130,7 +130,7 @@ i{
         img{
             z-index: 3;
             position: absolute !important;
-            left: -90px !important;
+            left: -80px !important;
         }
     }
     .credit-card__bg2:before{
@@ -149,7 +149,7 @@ i{
     .credit-card__bg3:after{
         content: "";
         position: absolute;
-       
+        z-index: 1;
         top: 70px;
         left: 197px;
         width: 28px;

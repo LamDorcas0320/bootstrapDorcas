@@ -12081,7 +12081,7 @@ i {
 .credit-card .credit-card__bg3 img {
   z-index: 3;
   position: absolute !important;
-  left: -90px !important;
+  left: -80px !important;
 }
 .credit-card .credit-card__bg2:before {
   content: "";
@@ -12099,6 +12099,7 @@ i {
 .credit-card .credit-card__bg3:after {
   content: "";
   position: absolute;
+  z-index: 1;
   top: 70px;
   left: 197px;
   width: 28px;
@@ -12178,10 +12179,6 @@ i {
   position: relative;
   top: -300px;
   left: 15rem;
-}
-.services .compnay-circle__logo {
-  position: relative;
-  left: 50px;
 }
 .services .video-button {
   width: 5rem !important;
