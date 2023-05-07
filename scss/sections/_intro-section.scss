@@ -23,10 +23,7 @@ button{
     border: 0px;
 }
 
-.mastercard-logo{
-    position: relative;
-    left: -100px;
-}
+
 
 .card-box{
     padding: 30px;
@@ -100,10 +97,9 @@ i{
         left: 70px;
  
     }
-    .card-logo{
-        z-index: 2;
-        position: relative;
-        left: -10px !important; 
+    .card-header{
+     z-index: 2;
+   
     }
     .card-body{
         z-index: 2;
@@ -126,6 +122,12 @@ i{
            
          
      
+    }
+    .credit-card__bg3{
+        img{
+            position: relative !important;
+            left: -100px !important;
+        }
     }
     .credit-card__bg2:before{
         content: "";
